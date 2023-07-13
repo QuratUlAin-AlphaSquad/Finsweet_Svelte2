@@ -30,12 +30,12 @@
               </svg>
         </div>
         <div class="navItems">
-            <a href="/">Home</a>
-            <a href="/about">About us</a>
-            <p>Features</p>
-            <p>Pricing</p>
-            <p>FAQ</p>
-            <p>Blog</p>
+            <a class="navLinks" href="/">Home</a>
+            <a class="navLinks" href="/about">AboutUs</a>
+            <a class="navLinks" href="/Features">Features</a>
+            <a class="navLinks" href="/Pricing">Pricing</a>
+            <a class="navLinks" href="/FAQ">FAQ</a>
+            <a class="navLinks" href="/Blog">Blog</a>
         
         <button class="btnNavContact">Contact us</button>
         </div>
@@ -89,7 +89,7 @@
                     See how pivoting to Webflow changed one person’s sales
                     strategy and allowed him to attract
                 </p>
-                <a href="/products/2" class="readMore"
+                <a href="Demo-api/1" class="readMore"
                     >Read More
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -117,7 +117,7 @@
                     See how pivoting to Webflow changed one person’s sales
                     strategy and allowed him to attract
                 </p>
-                <a href="/products/3" class="readMore"
+                <a href="Demo-api/2" class="readMore"
                     >Read More
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -145,7 +145,7 @@
                     See how pivoting to Webflow changed one person’s sales
                     strategy and allowed him to attract
                 </p>
-                <a href="/products/5" class="readMore"
+                <a href="Demo-api/3" class="readMore"
                     >Read More
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -177,7 +177,7 @@
                     See how pivoting to Webflow changed one person’s sales
                     strategy and allowed him to attract
                 </p>
-                <a href="/products/6" class="readMore"
+                <a href="Demo-api/4" class="readMore"
                     >Read More
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -205,7 +205,7 @@
                     See how pivoting to Webflow changed one person’s sales
                     strategy and allowed him to attract
                 </p>
-                <a href="/products/7" class="readMore"
+                <a href="Demo-api/5" class="readMore"
                     >Read More
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -233,7 +233,7 @@
                     See how pivoting to Webflow changed one person’s sales
                     strategy and allowed him to attract
                 </p>
-                <a href="/products/8" class="readMore"
+                <a href="Demo-api/6" class="readMore"
                     >Read More
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -352,6 +352,10 @@
 
 
 <style>
+    .navLinks {
+	color: white;
+    text-decoration: none;
+}
 .navBar{
     /* margin-top: 0 auto; */
 /* margin-left: 0 auto; */
