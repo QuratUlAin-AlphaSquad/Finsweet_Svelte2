@@ -348,7 +348,19 @@
     
     </div>
 </main>
+<!-- Copyright -->
+<div class="copyRightMainDiv">
+    <p>Copyright 2021, Finsweet.com</p>
+    <div class="copyRightItems">
+        <p>Home</p>
+        <p>About us</p>
+        <p>Features</p>
+        <p>Pricing</p>
+        <p>FAQ</p>
+        <p>Blog</p>
 
+    </div>
+</div>
 
 
 <style>
@@ -655,7 +667,7 @@ margin-top: -30px;
 .footerDiv2{
     margin-top: -55px;
 }
-/* .copyRightMainDiv{
+.copyRightMainDiv{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -667,10 +679,10 @@ font-size: 16px;
 font-style: bold;
 font-weight: 500;
 line-height: 28px;
-} */
-/* .copyRightItems{
+}
+.copyRightItems{
     display: flex;
     flex-direction: row;
     gap:32px;
-} */
+}
 </style>
