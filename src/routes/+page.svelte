@@ -131,7 +131,7 @@
             <div class="cardRow1">
                 <!-- Card 1 -->
                 {#each posts as post (post.id)}
-                    <div>
+                    <div >
                         <img class="cardImg" src={post.url} alt="" />
                         <p class="date">27 Jan 2021</p>
                         <p class="cardPara">
@@ -369,9 +369,11 @@
 
 
     
-    /* .cardImg{
+    .cardImg{
         width: 50%;
-    } */
+        /* margin-left: auto;
+        margin-right: auto; */
+    }
     .navLinks {
         color: white;
         text-decoration: none;
@@ -426,11 +428,12 @@
         flex-direction: row;
         /* align-items: center; */
         /* justify-content: center; */
-        max-width: 50%;
-        width: 100%;
+        /* max-width: 50%; */
+        /* width: 100%; */
         margin-left: auto;
         margin-right: auto;
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
+        /* flex-shrink: 1; */
     }
 
     .content {
@@ -582,6 +585,7 @@ justify-content: center; */
         gap: 32px;
         margin-top: 48px;
         flex-wrap: wrap;
+        /* max-width: 50%; */
     }
     /* .cardRow2 {
         display: flex;
@@ -1374,8 +1378,6 @@ justify-content: center; */
     .readMore1 {
         text-align: center;
         font-size: 12px;
-
-
     }
     .date {
         color: var(--dark-blue, #282938);
